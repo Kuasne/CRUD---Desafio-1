@@ -1,0 +1,26 @@
+### Autenticando o usuario na API
+POST http://localhost:3400/login
+Content-Type: application/json
+
+{
+    "email":"admin@admin.com",
+    "senha":"123456"
+}
+
+### Efetuando logout
+DELETE  http://localhost:3400/logout
+Content-Type: application/json
+Authorization:  8f8c5397ab71941d3c657247f3ea684f
+
+### Obter usuarios por id
+GET  http://localhost:3400/usuarios/1
+Content-Type: application/json
+Authorization: 29e0e91d897e358054d44872170a8699 
+
+### Obter todos os usuários
+GET  http://localhost:3400/usuarios
+Content-Type: application/json
+Authorization: #867c98ee5816079d7302a4bf1fe8d55d
+
+
+#867c98ee5816079d7302a4bf1fe8d55d"

@@ -1,0 +1,45 @@
+### Obter todos os clientes
+GET  http://localhost:3400/clientes
+Content-Type: application/json
+Authorization: 29e0e91d897e358054d44872170a8699 
+
+
+### Obter o cliente por id
+GET  http://localhost:3400/clientes/1
+Content-Type: application/json
+Authorization: 29e0e91d897e358054d44872170a8699 
+
+
+### Cadastrar cliente
+POST http://localhost:3400/clientes
+Content-Type: application/json
+Authorization: 29e0e91d897e358054d44872170a8699
+
+{
+    "nome": "Severino",
+    "cpfOuCnpj": "12345678903",
+    "email": "severino@exemplo.com",
+    "telefone": "21999887744",
+    "idUsuario": 1,
+    "dataCadastro": "2022-01-15T18:39:00.540Z"
+}
+
+### Atualizar clientes
+PUT http://localhost:3400/clientes/1
+Content-Type: application/json
+Authorization: 29e0e91d897e358054d44872170a8699
+
+{
+    "nome": "Jose Pereira Lima",
+    "cpfOuCnpj": "12345678904",
+    "email": "joselima@exemplo.com",
+    "telefone": "21999887766",
+    "idUsuario": 1,
+    "dataCadastro": "2022-01-15T18:39:00.540Z"
+}
+
+
+### Deletar produto por id
+DELETE http://localhost:3400/clientes/3
+Content-Type: application/json
+Authorization: 29e0e91d897e358054d44872170a8699

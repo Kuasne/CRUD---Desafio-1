@@ -1,0 +1,20 @@
+.bi-instagram {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-instagram {
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-top: 48px;
+    background-color: #212529;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 400;
+    line-height: 24px;
+}
